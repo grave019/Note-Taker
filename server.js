@@ -36,3 +36,22 @@ app.get("/api/notes", function(req, res) {
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "/public/index.html"));
 });
+
+app.post('/api/notes', (req, res) => {
+    console.info(`${req.method} request received to add a note`);
+
+    let newNote = req.body; 
+    // generates a list of notes and saves it to a var by reading current db
+    let noteList = JSON.parse(fs.readFileSync("./db/db.json", "utf8")); 
+
+    //creates unique ids using uuid, woo
+    newNote.id = uuid();
+    
+    //pushes our new note onto that array read from the db
+    noteList.push(newNote); 
+
+    //write the updated data to db.json
+    fs.writeFileSync(".db/db.json", JSON.stringify(noteList)); 
+    res.json(noteList);
+
+})
