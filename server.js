@@ -2,7 +2,6 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const db = require("db.db.json")
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -55,3 +54,19 @@ app.post('/api/notes', (req, res) => {
     res.json(noteList);
 
 })
+
+app.delete("/api/notes/:id", (req, res) => {
+    console.info(`${req.method} request received.`);
+
+    let noteList = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let noteId = (req.params.id).toString();
+
+
+    noteList = noteList.filter(selected =>{
+        return selected.id != noteId;
+    })
+
+    //saves the new db without the selected note.
+    fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
+    res.json(noteList);
+});
