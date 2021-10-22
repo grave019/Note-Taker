@@ -50,7 +50,7 @@
 
   ## Acknowledgements
 
-  Brent 
+  Fenix Sampson, Gabriel Cavalcante Causin, Dan RosenBaum, John Dinsmore and the rest of the excellent staff at UCF Bootcamp.
 
   ## Contributions
 
@@ -59,6 +59,8 @@
   ## Resources
  
   Eloquent Javascript, Class activities from UCF Bootcamp
+
+  https://eloquentjavascript.net/
 
   ## License
 
