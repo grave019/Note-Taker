@@ -8,7 +8,7 @@
   
   Click the link below to visit my deployed page.
 
-  <!-- [URL](undefined) -->
+https://brent-note-taker.herokuapp.com/notes
 
   ## Table of Contents
   
