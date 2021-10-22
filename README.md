@@ -57,6 +57,10 @@ https://brent-note-taker.herokuapp.com/notes
 
   ![image db.json](public/assets/images/Screen%20Shot%202021-10-22%20at%202.19.11%20PM.png)
 
+  Screenshot of page deployed on heroku.com
+
+  ![deployedpage](public/assets/images/heroku-page.png)
+
   ## Acknowledgements
 
   Fenix Sampson, Gabriel Cavalcante Causin, Dan RosenBaum, John Dinsmore and the rest of the excellent staff at UCF Bootcamp.
