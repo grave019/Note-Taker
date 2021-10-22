@@ -2,5 +2,15 @@
     {
         "title": "Test Title",
         "text": "Test text"
+    },
+    {
+        "title": "Testing to make sure it save",
+        "text": "s this note i am writing",
+        "id": "6b10"
+    },
+    {
+        "title": "save and delete works!",
+        "text": "Yay",
+        "id": "f7b9"
     }
 ]
