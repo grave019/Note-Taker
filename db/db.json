@@ -4,13 +4,28 @@
         "text": "Test text"
     },
     {
-        "title": "Testing to make sure it save",
-        "text": "s this note i am writing",
-        "id": "6b10"
+        "title": "Bank",
+        "text": "Call bank of Friday",
+        "id": "b3b4"
     },
     {
-        "title": "save and delete works!",
-        "text": "Yay",
-        "id": "f7b9"
+        "title": "Delivery",
+        "text": "Reschedule Delivery",
+        "id": "2fe2"
+    },
+    {
+        "title": "Payroll",
+        "text": "Finish Payroll",
+        "id": "dd21"
+    },
+    {
+        "title": "Clients",
+        "text": "Check In With Clients",
+        "id": "8ef1"
+    },
+    {
+        "title": "Clients Lunch",
+        "text": "Client Lunch of Thursday",
+        "id": "10c9"
     }
 ]
