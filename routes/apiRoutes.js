@@ -1,4 +1,4 @@
-// Required files + modules
+// Required files and modules
 const router = require('express').Router();
 const { readFromFile, readAndAppend, deleteNote } = require('../helper/fsUtils');
 const uuid = require('../helper/uuid');
@@ -9,10 +9,9 @@ router.get('/notes', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 })
 
-// POST route for submitting a new note
+// POST route 
 router.post('/notes', (req, res) => {
     const { title, text } = req.body;
-    // If title and text was entered...
     if (title && text) {
         const newNote = {
             title,
