@@ -46,7 +46,16 @@
 
   ## Visualization
 
-  placeholder to add images or other media
+  Mock up from Dev tools
+  ![bootcamp note taker](public/assets/images/11-express-homework-demo-01.png)
+  
+  Terminal screen shot of data entry at PORT 3001 web page and showing data written when inputting a note on the page.
+  
+  ![terminal](public/assets/images/Screen%20Shot%202021-10-22%20at%202.18.37%20PM.png)
+
+  Data entered on the web page shown being written to db/db.json
+
+  ![image db.json](public/assets/images/Screen%20Shot%202021-10-22%20at%202.19.11%20PM.png)
 
   ## Acknowledgements
 
